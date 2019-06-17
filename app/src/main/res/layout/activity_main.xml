@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/shadow_profile"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/profile_foreground"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="First Name"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="100dp"
+        android:textSize="8sp"
+        android:id="@+id/first_name"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/first_name"
+        android:layout_marginLeft="10dp"
+        android:text="Last Name"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        android:id="@+id/last_name"/>
+
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="Email"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"/>
+
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="300dp"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logout"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="350dp"/>
+
+</RelativeLayout>
